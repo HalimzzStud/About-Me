@@ -1,0 +1,40 @@
+[
+    {
+        "type": "design",
+        "title": "Poster H-",
+        "image": "porto/porto_DesignGraph/AML & 4S (abdimas).webp",
+        "style" : ["Modern", "Light Focus", "Typography"],
+        "description": "Desain postingan h- yang dibuat secara mendadak huahahahahahaha"
+    },
+    {
+        "type": "design",
+        "title": "Feed Instagram",
+        "style": ["Sky Theme", "Positioning Grid", "Event"],
+        "image": "porto/porto_DesignGraph/Outbond-converted-from-svg.webp",
+        "description": "Pembuatan desain feed saat ukuran masih 1:1, dengan tema utama 'Di Atas Awan!'"
+    },
+    {
+        "type": "design",
+        "title": "Poster H-",
+        "image": "porto/porto_DesignGraph/AML & 4S (abdimas).webp",
+        "style" : ["Modern", "Light Focus", "Typography"],
+        "description": "Desain postingan h- yang dibuat secara mendadak huahahahahahaha"
+    },
+    {
+        "type": "design",
+        "title": "Feed Instagram",
+        "style": ["Sky Theme", "Positioning Grid", "Event"],
+        "image": "porto/porto_DesignGraph/Outbond-converted-from-svg.webp",
+        "description": "Pembuatan desain feed saat ukuran masih 1:1, dengan tema utama 'Di Atas Awan!'"
+    },
+
+    
+
+    {
+        "type": "web",
+        "title": "Class Web",
+        "tags": ["html", "css", "php"],
+        "image": "porto/porto_WebDev/image (2).png",
+        "description": "Project serius pertama, yang awalnya hanya untuk iseng, tapi kini dikembangkan dengan serius."
+    }
+]
