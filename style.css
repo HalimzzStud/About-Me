@@ -18,7 +18,7 @@ body {
     padding: 0px 20px;
     height: 50px;
     margin: 20px;
-    background-color: rgba(137, 137, 137, 0.605);
+    background-color: rgba(42, 42, 64, 0.605);
     color: white;
     font-size: 12px;
     font-style: italic;
@@ -36,6 +36,17 @@ body {
     flex-direction: column;
     color: aliceblue;
     margin-top: 100px;
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 40px 20px;
+    width: 100vw;
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0)2%, rgb(42, 42, 62));
+    color: aliceblue;
 }
 
 .head {
@@ -164,7 +175,6 @@ body {
 
 .card {
     position: relative;
-    width: 200px;
     height: 200px;
     overflow: hidden;
     border-radius: 15px;
@@ -203,6 +213,7 @@ body {
 
 .content p {
     font-size: small;
+    margin: 3px 3px;
 }
 
 .tags span {
@@ -232,8 +243,27 @@ body {
 }
 
 #portofolio-container-web .card img {
-    transform: translateY(10px);
-    transform: scale(100%);
+    transform: translateY(20%);
+    scale: 160%;
+}
+
+.tagline, .navigation, .contact {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    gap: 5px;
+}
+
+.tagline div a img{
+    width: 23px;
+    margin-right: 5px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    margin-bottom: 5px;
 }
 
 /* --- RESPONSIF UNTUK LAYAR HP (Maksimal Lebar 768px) --- */
@@ -244,6 +274,15 @@ body {
         width: 85vw;
         margin: 10px;
         padding: 0px 15px;
+    }
+
+    #footer {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding-left: 20vw;
+        gap: 15px;
+        background: linear-gradient(rgba(71, 61, 106, 0) 2%, rgb(51, 51, 87));
     }
 
     /* 2. Mengubah susunan card1 (profil) dari samping menjadi ke bawah */
@@ -294,7 +333,11 @@ body {
 
     /* Menyesuaikan gambar portofolio web khusus di HP */
     #portofolio-container-web .card img {
-        transform: none;   /* Menghapus translate bawaan desktop */
-        object-fit: cover;
+        scale: none;
+        transform: none;
+    }
+
+    .tagline, .navigation, .contact {
+        width: 250px;
     }
 }
