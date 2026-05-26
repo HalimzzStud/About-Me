@@ -8,27 +8,55 @@ body {
     gap: 5px 0;
 }
 
+/* ==========================================
+   GAYA AWAL (Saat berada di paling atas layar)
+   ========================================== */
 #header {
     position: fixed;
-    width: 90vw;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Penuh seukuran layar browser */
+    height: 60px; /* Sedikit lebih tinggi saat awal */
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
-    height: 50px;
-    margin: 20px;
-    background-color: rgba(42, 42, 64, 0.605);
+    padding: 0px 20px; /* Padding lebih lebar saat nempel */
+    background-color: rgb(42, 42, 64); /* Warna solid awal */
     color: white;
-    font-size: 12px;
-    font-style: italic;
-    border-radius: 15px;
+    font-size: 14px;
     z-index: 999;
+    
+    /* Efek transisi halus untuk semua perubahan animasi */
+    transition: all 0.4s ease-in-out; 
+}
+
+#header h1 {
+    transition: transform 0.4s ease-in-out;
 }
 
 
-#header h1 {
-    rotate: -5deg;
+/* ==========================================
+   GAYA SETELAH SCROLL (Rounded Box Melayang)
+   ========================================== */
+#header.scrolled {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%); /* Trik jitu untuk mengetengahkan elemen fixed */
+    width: 90vw;
+    height: 50px;
+    padding: 0px 20px;
+    background-color: rgba(42, 42, 64, 0.605);
+    backdrop-filter: blur(8px); /* Opsional: memberi efek blur kaca transparan */
+    font-size: 12px;
+    font-style: italic;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); /* Dimensi melayang */
+}
+
+/* Mengubah h1 saat header memiliki class .scrolled */
+#header.scrolled h1 {
+    transform: rotate(-5deg); 
 }
 
 #body {
@@ -94,13 +122,13 @@ body {
     height: 15px;
 }
 
-.tag {
+.tag, #tags {
     display: flex;
     flex-direction: row;
     gap: 15px;
 }
 
-.tag div {
+.tag div, #tags span{
     font-size: 10px;
     background-color: rgb(31, 31, 31);
     border-radius: 15px;
@@ -247,6 +275,74 @@ body {
     scale: 160%;
 }
 
+#cardPopUp {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(65, 65, 65, 0.749);
+    }
+
+.cardPop-design {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 70%;
+    background: linear-gradient(to right,rgb(24, 24, 24), rgb(42, 42, 62));
+    border-radius: 15px;
+}
+
+.left-design {
+    background-color: white;
+    width: 330px;
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;/* Sembunyikan scrollbar bawaan agar rapi */
+    border: 3px solid #333;
+    position: relative;
+    cursor: crosshair;
+}
+
+#targetGambar {
+    width: 450px;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;transition:
+    transform 0.5s ease-out; /* Membuat pergerakan terasa halus */
+    pointer-events: none;
+    }
+
+#closePopUp {
+    position: absolute;
+    height: 30px;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right-design {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 5px 15px;
+    width: 65%;
+}
+
+.right-design p {
+    font-size: small;
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+    text-align: justify;
+}
+
 .tagline, .navigation, .contact {
     display: flex;
     flex-direction: column;
@@ -271,9 +367,31 @@ body {
     
     /* 1. Header diatur ulang agar tidak terlalu memakan tempat */
     #header {
-        width: 85vw;
-        margin: 10px;
+        width: 100vw; /* Tetap penuhi layar di kondisi awal */
+        padding: 0px 15px; /* Kurangi padding sedikit agar ruang konten lebih luas */
+        font-size: 13px; /* Perkecil font dasar agar muat di HP */
+    }
+
+    #header h1 {
+        font-size: 1.2rem; /* Batasi ukuran judul agar tidak overload */
+    }
+
+    /* GAYA SETELAH SCROLL DI HP */
+    #header.scrolled {
+        top: 10px; /* Jarak dari atas dipersempit agar tidak memakan ruang baca */
+        width: 88vw; /* Diperlebar menjadi 94% agar proporsional dengan layar HP */
+        height: 48px; /* Sedikit lebih tipis agar hemat layar */
         padding: 0px 15px;
+        border-radius: 10px; /* Lengkungan disesuaikan dengan ukuran kotak yang lebih kecil */
+        font-size: 11px;
+    }
+
+    /* Mengubah atau menetralkan rotasi h1 di HP */
+    #header.scrolled h1 {
+        /* Di HP, rotasi -5deg rawan bikin teks tabrakan. 
+           Lebih aman diturunkan efeknya atau dihilangkan seperti ini: */
+        transform: rotate(-2deg); 
+        font-size: 1rem;
     }
 
     #footer {
@@ -335,6 +453,53 @@ body {
     #portofolio-container-web .card img {
         scale: none;
         transform: none;
+    }
+
+    .cardPop-design {
+        /* Ubah arah susunan dari menyamping menjadi menumpuk ke bawah */
+        flex-direction: column; 
+        min-height: auto;
+        width: 90%; /* Perlebar sedikit agar memanfaatkan ruang HP */
+        height: 90%; /* Beri ruang lebih tinggi untuk menampung konten */
+        overflow-y: auto; /* Jaga-jaga jika konten teks terlalu panjang */
+    }
+
+    .left-design {
+        /* Jangan gunakan width statis (330px) di HP agar tidak meluber */
+        width: 100%; 
+        height: auto; /* Batasi tinggi area gambar */
+        border-radius: 15px 15px 0 0; /* Lengkungan hanya di atas */
+    }
+
+    #targetGambar {
+        /* Sesuaikan ukuran gambar agar pas dengan kontainer barunya */
+        position: relative;
+        top: auto;
+        left: auto;
+        width: 100%;
+        height: auto;
+        display: block;
+        object-fit: contain; /* Mengubah ke contain agar gambar terlihat utuh di HP */
+    }
+
+    .right-design {
+        width: auto; /* Mengikuti lebar container induknya */
+        height: 60%; /* Sisa ruang untuk teks */
+        margin: 15px; /* Beri jarak yang pas */
+        justify-content: space-between; /* Membantu memisahkan teks dan tombol close */
+    }
+
+    .right-design p {
+        height: 400px;
+        font-size: 0.85rem; /* Ukuran font yang lebih ideal untuk HP */
+        margin-bottom: 10px; /* Beri ruang di bawah teks agar tidak tertutup tombol close */
+    }
+
+    #closePopUp {
+        /* Menyesuaikan posisi tombol close di layar HP */
+        bottom: 15px;
+        right: 15px;
+        height: 35px; /* Sedikit diperbesar agar lebih mudah ditekan jari */
     }
 
     .tagline, .navigation, .contact {

@@ -1,31 +1,35 @@
 [
     {
         "type": "design",
+        "title": "Poster Design — DKARWT 2026 Abdimas '4S' (H-1)",
+        "image": "porto/porto_DesignGraph/AML & 4S (abdimas).webp",
+        "style" : ["#graphicsdesign", "#posterdesign", "#typography", "#darkdesign", "#visualdesign", "#hugetypo"],
+        "description": "Desain postingan h- yang dibuat secara mendadak huahahahahahaha",
+        "completeDesc": "<br>Poster ini aku buat sebagai konten countdown H-1 untuk kegiatan <b>DKARWT 2026 Abdimas</b>, sebuah program Pengabdian Masyarakat dari UKM Pramuka Wijaya UNNES.<br></br>Untuk konsepnya, aku pengen nuanginnya ke arah yang <b>dramatis tapi tetap berenergi</b> — makanya aku pilih palet warna <b>merah gelap dan ungu</b> sebagai dominan, dengan tambahan efek cahaya glowing yang bikin posternya terasa lebih dalam dan sinematik. Elemen <b>+ dan ×</b> yang aku sebar di beberapa sudut juga sengaja aku taruh buat ngasih kesan dinamis dan nggak terlalu kaku.<br></br>Focal point utamanya jelas banget di <b>tipografi 'H-1'</b> — aku render dengan gaya <b>bold 3D metalik</b> biar langsung nangkep mata dan pesannya tersampaikan dalam hitungan detik. Di bawahnya ada badge <b>'- 4 S -'</b> dengan gradasi merah ke ungu, sebagai representasi visual dari tagline kegiatan yaitu <b>Senyum, Salam, Sapa, Silaturahmi.</b><br></br>Untuk bagian branding, aku masukin logo institusi terkait di atas, hashtag kampanye, sampai info media sosial dan kontak resmi di bagian bawah — biar satu poster ini bisa berdiri sendiri sebagai konten yang informatif sekaligus menarik secara visual.<br></br>Secara keseluruhan, aku ngerasa poster ini berhasil ngangkat semangat dan antisipasi menjelang hari H, sesuai sama tujuannya — ngajak seluruh anggota Pramuka se-UNNES Raya untuk hadir dan bersilaturahmi."
+    },
+    {
+        "type": "design",
+        "title": "Carousel Poster — Pelantikan Anggota Saka Kalpataru Angkatan X",
+        "style": ["Sky Theme", "Positioning Grid", "Event"],
+        "image": "porto/porto_DesignGraph/Outbond-converted-from-svg.webp",
+        "description": "Pembuatan desain feed 1:1, dengan tema utama 'Di Atas Awan!'",
+        "completeDesc": "Poster ini aku buat sebagai konten <b>Pelantikan Anggota Saka Kalpataru Angkatan X</b>, dengan elemen <b>Coming Soon</b> yang aku sisipkan sebagai teaser untuk menginfokan bahwa ada event selanjutnya yang akan datang.<br></br>Untuk konsepnya, aku bawa ke arah yang <b>ringan, ceria, dan bernuansa alam</b>. Aku pilih palet dominan <b>biru langit dan putih</b> dengan tekstur kertas di background, yang langsung ngasih kesan segar dan outdoor. Elemen awan bergaya ilustrasi, motif batik awan khas Jawa, dan siluet burung terbang aku tambahkan buat memperkuat nuansa alam bebas yang identik dengan dunia Pramuka dan Saka Kalpataru.<br></br>Judul utama <b>'Pelantikan Anggota Saka Kalpataru'</b> aku tampilkan dengan font dekoratif yang elegan, didampingi keterangan <b>Angkatan X</b> sebagai identitas angkatan. Di bagian atas, teks <b>'Coming Soon'</b> dengan tipografi bold bergaya komik aku jadikan penanda bahwa masih ada konten lanjutan yang akan datang, dilengkapi subtext <b>'Stay Tuned On @sakakalpataru_kotategal'</b> sebagai call to action.<br></br>Bagian bawah poster aku isi dengan <b>preview 4 rangkaian kegiatan</b> dalam format kartu notebook yang konsisten, masing-masing berisi: <b>01 Kegiatan Outbond</b>, <b>02 Kenali Krida</b>, <b>03 Jelajah Jejak</b>, dan <b>04 Pelantikan Anggota</b>. Format swipe ini sengaja aku rancang biar cocok dijadikan konten carousel Instagram.<br></br>Secara keseluruhan, poster ini berhasil menyampaikan informasi awal dengan visual yang hangat dan mengundang — bikin audiens penasaran dan nantiin update selanjutnya dari Saka Kalpataru Kota Tegal."
+    },
+    {
+        "type": "design",
         "title": "Poster H-",
         "image": "porto/porto_DesignGraph/AML & 4S (abdimas).webp",
         "style" : ["Modern", "Light Focus", "Typography"],
-        "description": "Desain postingan h- yang dibuat secara mendadak huahahahahahaha"
+        "description": "Desain postingan h- yang dibuat secara mendadak huahahahahahaha",
+        "completeDesc": ""
     },
     {
         "type": "design",
         "title": "Feed Instagram",
         "style": ["Sky Theme", "Positioning Grid", "Event"],
         "image": "porto/porto_DesignGraph/Outbond-converted-from-svg.webp",
-        "description": "Pembuatan desain feed saat ukuran masih 1:1, dengan tema utama 'Di Atas Awan!'"
-    },
-    {
-        "type": "design",
-        "title": "Poster H-",
-        "image": "porto/porto_DesignGraph/AML & 4S (abdimas).webp",
-        "style" : ["Modern", "Light Focus", "Typography"],
-        "description": "Desain postingan h- yang dibuat secara mendadak huahahahahahaha"
-    },
-    {
-        "type": "design",
-        "title": "Feed Instagram",
-        "style": ["Sky Theme", "Positioning Grid", "Event"],
-        "image": "porto/porto_DesignGraph/Outbond-converted-from-svg.webp",
-        "description": "Pembuatan desain feed saat ukuran masih 1:1, dengan tema utama 'Di Atas Awan!'"
+        "description": "Pembuatan desain feed saat ukuran masih 1:1, dengan tema utama 'Di Atas Awan!'",
+        "completeDesc": ""
     },
 
     
@@ -35,6 +39,7 @@
         "title": "Class Web",
         "tags": ["html", "css", "php"],
         "image": "porto/porto_WebDev/image (2).png",
-        "description": "Project serius pertama, yang awalnya hanya untuk iseng, tapi kini dikembangkan dengan serius."
+        "description": "Project serius pertama, yang awalnya hanya untuk iseng, tapi kini dikembangkan dengan serius.",
+        "completeDesc": ""
     }
 ]
