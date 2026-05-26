@@ -379,7 +379,7 @@ body {
     /* GAYA SETELAH SCROLL DI HP */
     #header.scrolled {
         top: 10px; /* Jarak dari atas dipersempit agar tidak memakan ruang baca */
-        width: 88vw; /* Diperlebar menjadi 94% agar proporsional dengan layar HP */
+        width: 80vw; /* Diperlebar menjadi 94% agar proporsional dengan layar HP */
         height: 48px; /* Sedikit lebih tipis agar hemat layar */
         padding: 0px 15px;
         border-radius: 10px; /* Lengkungan disesuaikan dengan ukuran kotak yang lebih kecil */
