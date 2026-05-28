@@ -234,19 +234,23 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    margin-bottom: -2px;
     box-sizing: border-box;
+    padding-top: 10%;
     padding-left: 10px;
 }
 
 .content h2 {
     font-size: 17px;
-    margin: 10px 0;
+    margin-bottom: 5px;
 }
 
 .content p {
     font-size: small;
-    margin: 3px 3px;
+    margin: 13px 0;
+}
+
+.tags {
+    margin-bottom: 10px;
 }
 
 .tags span {
@@ -372,7 +376,7 @@ body {
     
     /* 1. Header diatur ulang agar tidak terlalu memakan tempat */
     #header {
-        width: 100vw; /* Tetap penuhi layar di kondisi awal */
+        width: 110vw; /* Tetap penuhi layar di kondisi awal */
         padding: 0px 15px; /* Kurangi padding sedikit agar ruang konten lebih luas */
         font-size: 13px; /* Perkecil font dasar agar muat di HP */
     }
@@ -423,7 +427,7 @@ body {
     /* Mengatur tag dan media sosial agar posisinya rapi di tengah */
     .tag, .social-media {
         justify-content: center;
-        flex-wrap: wrap; /* Supaya kalau kepanjangan, otomatis turun ke bawah */
+        flex-wrap: wrap;
     }
 
     /* 3. Mengubah Card2 (Statistik/Angka) menjadi 1 kolom penuh */
@@ -445,6 +449,7 @@ body {
         width: 100%;       /* Membuat card memenuhi lebar layar HP */
         max-width: 350px;  /* Batas maksimal lebar card di HP agar tidak terlalu raksasa */
         height: 250px;     /* Sedikit disesuaikan tingginya agar gambar tidak terlalu terpotong */
+        overflow: hidden;
     }
 
     .card img {
@@ -460,6 +465,15 @@ body {
         transform: none;
     }
 
+    #cardPopUp {
+        backdrop-filter: blur(8px);-webkit-backdrop-filter: blur(8px); /* Tambahkan ini untuk kestabilan browser mobile */
+
+    /* KUNCI FIX MIRRORING & TILES: */
+        isolation: isolate;
+        contain: paint;
+        transform: translateZ(0);
+    }
+
     .cardPop-design {
         /* Ubah arah susunan dari menyamping menjadi menumpuk ke bawah */
         flex-direction: column; 
@@ -467,6 +481,7 @@ body {
         width: 90%; /* Perlebar sedikit agar memanfaatkan ruang HP */
         height: 90%; /* Beri ruang lebih tinggi untuk menampung konten */
         overflow-y: auto; /* Jaga-jaga jika konten teks terlalu panjang */
+        background: linear-gradient(to bottom,rgba(24, 24, 24, 0.75), rgba(42, 42, 62, 0.75));
     }
 
     .left-design {
@@ -500,11 +515,22 @@ body {
         margin-bottom: 10px; /* Beri ruang di bawah teks agar tidak tertutup tombol close */
     }
 
+    #popTags {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #popTags span {
+        width: auto;
+        flex-shrink: 0;
+    }
+
     #closePopUp {
         /* Menyesuaikan posisi tombol close di layar HP */
         bottom: 15px;
         right: 15px;
         height: 35px; /* Sedikit diperbesar agar lebih mudah ditekan jari */
+        z-index: 1000;
     }
 
     .tagline, .navigation, .contact {
