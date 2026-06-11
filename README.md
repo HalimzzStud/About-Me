@@ -10,3 +10,6 @@ Update/26 Mei 2026,
 1. Penambahan fitur popup, tetapi di hp masih belum fix
 2. Perbaikan beberapa data di porto.json
 3. Fitur header baru
+
+Update/28 Mei 2026,
+Fix minor bug
