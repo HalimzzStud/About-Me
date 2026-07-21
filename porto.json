@@ -1,6 +1,22 @@
 [
     {
         "type": "design",
+        "title": "Desain PDL — Guslatbase '25",
+        "image":"porto/porto_DesignGraph/Porto-desain-pdl.png",
+        "style" : ["#graphicsdesign", "#uniformdesign", "#technicalspec", "#batik", "#visualdesign", "#pramuka"],
+        "description": "Desain PDH (Pakaian Dinas Harian) untuk Guslatbase UNNES lengkap dengan spesifikasi teknis",
+        "completeDesc": "<br>Desain ini aku buat sebagai <b>rancangan PDH (Pakaian Dinas Harian) resmi Guslatbase UNNES</b>, lengkap dengan spesifikasi teknis tiap bagiannya biar bisa langsung dijadikan acuan produksi/tailoring.<br></br>Untuk konsepnya, aku pilih kombinasi warna <b>hitam sebagai base dan ungu sebagai aksen</b>, biar kesannya tetap formal dan berwibawa tapi nggak ninggalin identitas warna khas Guslatbase. Potongan kerah, bahu, dan list kancing aku desain dengan warna ungu solid, sementara badan utama kemeja tetap hitam supaya kontrasnya kuat dan enak dipandang.<br></br>Bagian yang paling aku perhatiin detailnya ada di <b>list batik mega mendung</b> yang aku taruh menyilang di dada kanan — dilengkapi <b>pita retroreflektif di atas dan bawahnya</b>, serta <b>bordir tunas kelapa</b> di tengah motif sebagai simbol kepramukaan. Di dada kiri, aku tempatkan <b>bordir nama dan bendera merah putih</b> yang juga dikasih pita retroreflektif senada, tapi dengan lebar yang sengaja aku bikin lebih kecil dari pita di batik biar ada hierarki visual antar elemen.<br></br>Untuk identitas instansi, aku sisipkan <b>bordir logo UNNES</b> di dada kiri atas dan <b>bordir logo Guslatbase</b> di lengan kanan bagian punggung. Di bagian belakang, aku desain <b>panel ungu besar berisi bordir nama instansi 'Gugus Latih Bahasa dan Seni, Universitas Negeri Semarang'</b>, dibatasi garis <b>pita retroreflektif dua strip</b> dengan lebar yang konsisten sama seperti di bagian depan — biar dari depan maupun belakang, identitas keselamatan (reflektif) dan identitas organisasi sama-sama kebaca jelas, apalagi kalau dipakai di kondisi minim cahaya.<br></br>Dari sisi fungsional, aku lengkapi juga dengan <b>saku tempel di dada kiri dan kanan</b> buat kebutuhan penyimpanan praktis, serta <b>pengikat lengan (epaulette-style cuff strap)</b> di ujung lengan biar lengan panjang bisa digulung rapi saat lapangan.<br></br>Secara keseluruhan, desain ini aku susun bukan cuma dari sisi estetika, tapi juga fungsional dan siap produksi — tiap elemen dari bordir, motif batik, sampai pita reflektif punya alasan dan takarannya masing-masing, sehingga bisa langsung dipakai sebagai pedoman visual maupun teknis buat penjahit."
+    },
+    {
+        "type": "design",
+        "title": "Feed Instagram — Organogram Guslatbase '25",
+        "image": "porto/porto_DesignGraph/Organogram.png",
+        "style" : ["#organogram", "#graphicsdesign", "#pramuka", "#posterdesign", "#typography", "#visualdesign"],
+        "description": "Desain organogram / susunan pengurus Gugus Latih Bahasa dan Seni UNNES",
+        "completeDesc": "<br>Poster ini aku buat sebagai konten <b>Susunan Organisasi Gugus Latih Bahasa dan Seni Universitas Negeri Semarang</b>, dengan tujuan memperkenalkan struktur kepengurusan sekaligus wajah-wajah di baliknya ke publik secara formal dan rapi.<br></br>Untuk konsepnya, aku bawa ke arah yang <b>elegan, modern, dan sedikit dramatis</b>. Aku pilih palet dominan <b>ungu gelap ke biru keunguan</b> dengan efek gradasi dan glowing di background, biar posternya kelihatan premium tapi tetap konsisten dari panel satu ke panel lainnya. Latar foto gedung kampus yang aku transparansikan juga jadi identitas visual bahwa struktur ini berasal dari UNNES.<br></br>Karena jumlah divisi yang cukup banyak, aku bagi layout jadi <b>format grid multi-panel</b> — masing-masing panel mewakili satu jabatan atau divisi, lengkap dengan foto anggota berseragam Pramuka, nama, serta angkatan mereka. Tipografi nama jabatan aku render besar dan tebal di tiap panel, seperti <b>'Dewan Kehormatan'</b>, <b>'Koordinator Pa/Pi'</b>, <b>'Pemangku Adat'</b>, <b>'Sekretaris'</b>, <b>'Bendahara'</b>, <b>'Abdimas'</b>, <b>'Kajipram'</b>, <b>'Giatpram'</b>, hingga <b>'Evabang'</b> — biar tiap divisi punya identitas visual yang jelas sekaligus mudah dikenali sekilas pandang.<br></br>Di sisi kiri, aku taruh judul utama <b>'Susunan Organisasi Gugus Latih Bahasa dan Seni Universitas Negeri Semarang'</b> secara vertikal, dipadu logo-logo institusi terkait dan ilustrasi lambang Pramuka, sebagai penanda identitas resmi organisasi ini.<br></br>Setiap panel juga aku lengkapi dengan header konsisten berisi nama organisasi, logo, serta info sosial media di bagian bawah, biar keseluruhan desain tetap satu kesatuan meskipun dipecah jadi beberapa panel.<br></br>Secara keseluruhan, poster ini berhasil menyampaikan struktur organisasi yang cukup kompleks dengan cara yang tetap enak dilihat dan mudah dipahami, sekaligus jadi bentuk apresiasi visual buat seluruh pengurus Gugus Latih Bahasa dan Seni UNNES."
+    },
+    {
+        "type": "design",
         "title": "Poster Design — DKARWT 2026 Abdimas '4S' (H-1)",
         "image": "porto/porto_DesignGraph/AML & 4S (abdimas).webp",
         "style" : ["#graphicsdesign", "#posterdesign", "#typography", "#darkdesign", "#visualdesign", "#hugetypo"],
@@ -15,31 +31,24 @@
         "description": "Pembuatan desain feed 1:1, dengan tema utama 'Di Atas Awan!'",
         "completeDesc": "Poster ini aku buat sebagai konten <b>Pelantikan Anggota Saka Kalpataru Angkatan X</b>, dengan elemen <b>Coming Soon</b> yang aku sisipkan sebagai teaser untuk menginfokan bahwa ada event selanjutnya yang akan datang.<br></br>Untuk konsepnya, aku bawa ke arah yang <b>ringan, ceria, dan bernuansa alam</b>. Aku pilih palet dominan <b>biru langit dan putih</b> dengan tekstur kertas di background, yang langsung ngasih kesan segar dan outdoor. Elemen awan bergaya ilustrasi, motif batik awan khas Jawa, dan siluet burung terbang aku tambahkan buat memperkuat nuansa alam bebas yang identik dengan dunia Pramuka dan Saka Kalpataru.<br></br>Judul utama <b>'Pelantikan Anggota Saka Kalpataru'</b> aku tampilkan dengan font dekoratif yang elegan, didampingi keterangan <b>Angkatan X</b> sebagai identitas angkatan. Di bagian atas, teks <b>'Coming Soon'</b> dengan tipografi bold bergaya komik aku jadikan penanda bahwa masih ada konten lanjutan yang akan datang, dilengkapi subtext <b>'Stay Tuned On @sakakalpataru_kotategal'</b> sebagai call to action.<br></br>Bagian bawah poster aku isi dengan <b>preview 4 rangkaian kegiatan</b> dalam format kartu notebook yang konsisten, masing-masing berisi: <b>01 Kegiatan Outbond</b>, <b>02 Kenali Krida</b>, <b>03 Jelajah Jejak</b>, dan <b>04 Pelantikan Anggota</b>. Format swipe ini sengaja aku rancang biar cocok dijadikan konten carousel Instagram.<br></br>Secara keseluruhan, poster ini berhasil menyampaikan informasi awal dengan visual yang hangat dan mengundang — bikin audiens penasaran dan nantiin update selanjutnya dari Saka Kalpataru Kota Tegal."
     },
-    {
-        "type": "design",
-        "title": "Poster H-",
-        "image": "porto/porto_DesignGraph/AML & 4S (abdimas).webp",
-        "style" : ["Modern", "Light Focus", "Typography"],
-        "description": "Desain postingan h- yang dibuat secara mendadak huahahahahahaha",
-        "completeDesc": ""
-    },
-    {
-        "type": "design",
-        "title": "Feed Instagram",
-        "style": ["Sky Theme", "Positioning Grid", "Event"],
-        "image": "porto/porto_DesignGraph/Outbond-converted-from-svg.webp",
-        "description": "Pembuatan desain feed saat ukuran masih 1:1, dengan tema utama 'Di Atas Awan!'",
-        "completeDesc": ""
-    },
 
     
+
+    {
+        "type": "web",
+        "title": "First Personal Web",
+        "tags": ["html", "css"],
+        "image": "porto/porto_WebDev/first web.png",
+        "description": "Proyek Webdev pertamaku, dengan tujuan pengenalan html.",
+        "completeDesc": "Ini adalah proyek Webdev pertamaku, dibuat sebagai <b>latihan pengenalan dasar HTML dan CSS</b> — mulai dari struktur elemen, tag, sampai styling sederhana buat nyusun tampilan halaman ID Card.<br></br>Untuk konsepnya, aku bikin tampilan <b>profile card bergaya minimalis dan clean</b>. Bagian atas aku kasih header solid berwarna <b>navy blue</b> yang dipadu foto profil bulat dengan border putih tebal, biar fokus utamanya langsung tertuju ke identitas. Nama <b>'Nabil Halim'</b> aku tampilkan dengan font bold besar, didampingi subtitle <b>'Beginner Web Developer'</b> sebagai penanda posisi dan level saat itu.<br></br>Di bawahnya, aku susun tiga info ringkas dalam format kolom sejajar: <b>Skill (Editing)</b>, <b>Fav. Band (Chase Atlantic)</b>, dan <b>Fav. Song (RICOCHET)</b> — sengaja aku pisah per section biar informasinya gampang dibaca sekilas, semacam cara aku ngenalin diri lewat elemen visual sederhana.<br></br>Selain card utama, aku tambahin dua card terpisah di bawahnya: satu berisi sapaan singkat <b>'Greetings!!!'</b> sebagai pembuka yang ramah, dan satu lagi berisi <b>info kontak E-mail</b> biar orang yang buka halaman ini bisa langsung tahu cara menghubungiku.<br></br>Di tahap ini aku masih pakai <b>HTML buat struktur</b> dan <b>CSS buat styling dasar</b> seperti warna, layout, dan bentuk elemen — belum masuk ke interaktivitas pakai JavaScript. Proyek ini jadi titik awal aku belajar nyusun halaman yang rapi secara struktur sekaligus enak dilihat dari sisi visual, sebelum lanjut ke hal-hal yang lebih dinamis.<br></br><a href='http://hwhehwhe.atwebpages.com/ID%20Card.html' target='_blank' rel='noopener noreferrer'>akses web pertamaku</a>"
+    },
 
     {
         "type": "web",
         "title": "Class Web",
         "tags": ["html", "css", "php"],
         "image": "porto/porto_WebDev/image (2).png",
-        "description": "Project serius pertama, yang awalnya hanya untuk iseng, tapi kini dikembangkan dengan serius.",
-        "completeDesc": ""
+        "description": "Web resmi kelas FORD, hasil kerja sama aku (frontend) dan Levianz (backend).",
+        "completeDesc": "Web ini aku buat sebagai halaman resmi untuk <b>FORD (Family of Rombel Dua)</b>, kelas kolektif mahasiswa dari rombongan belajar kedua di Universitas Negeri Semarang (UNNES). Ide awal proyek ini murni dari aku, lalu aku ajak <b>Levianz</b> buat bareng-bareng ngembanginnya jadi lebih matang, dengan pembagian kerja: aku pegang <b>frontend dasar (HTML & CSS)</b>, sementara Levianz yang handle <b>backend (PHP)</b>.<br></br>Untuk konsepnya, kami bikin tampilan <b>landing page dengan nuansa hangat</b> — dominan warna <b>kuning keemasan</b> yang aku rasa cocok buat nunjukin kesan ramah dan kekeluargaan, sesuai sama nama 'Family' di FORD itu sendiri. Navbar di bagian atas kami isi beberapa menu navigasi seperti <b>About Us!, Our Vision, Meet Our Member!!!, Quotes,</b> dan <b>Fortune!</b>, biar pengunjung bisa eksplor berbagai sisi dari kelas kami.<br></br>Di halaman utama, kami tampilkan <b>foto kolektif seluruh anggota kelas</b> lengkap dengan watermark logo FORD di atasnya, dipadu teks perkenalan singkat yang jelasin arti dari nama FORD serta tujuan dibentuknya ruang ini — yaitu sebagai wadah diskursus akademik yang <b>inklusif, konstruktif, dan harmonis</b>, tapi tetap santai dan hangat.<br></br>Dari sisi teknis, bagianku fokus di <b>struktur halaman dan styling</b> — nyusun layout, navbar, sampai visual yang konsisten pakai HTML dan CSS. Sementara Levianz ngerjain sisi <b>logika dan pengolahan data di backend</b> pakai PHP, yang jadi fondasi biar web ini bisa lebih dari sekadar halaman statis. Kolaborasi ini ngebantu aku belajar gimana caranya kerja bareng dalam proyek web — bagi tugas sesuai kekuatan masing-masing, tapi tetap nyatu jadi satu hasil yang utuh.<br></br><a href='http://ford2.atwebpages.com/kelas/index.html' target='_blank' rel='noopener noreferrer' >akses web-nya di sini</a>"
     }
 ]

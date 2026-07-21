@@ -19,20 +19,20 @@ body {
 #header {
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100vw; /* Penuh seukuran layar browser */
-    height: 60px; /* Sedikit lebih tinggi saat awal */
+    left: 50%; /* Set ke 50% dari awal */
+    transform: translateX(-48.2%); /* Set centering dari awal */
+    width: 100vw; 
+    height: 60px; 
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px; /* Padding lebih lebar saat nempel */
-    background-color: rgb(42, 42, 64); /* Warna solid awal */
+    padding: 0px 20px; 
+    background-color: rgb(42, 42, 64); 
     color: white;
     font-size: 14px;
     z-index: 999;
     
-    /* Efek transisi halus untuk semua perubahan animasi */
     transition: all 0.4s ease-in-out; 
 }
 
@@ -40,26 +40,23 @@ body {
     transition: transform 0.4s ease-in-out;
 }
 
-
 /* ==========================================
    GAYA SETELAH SCROLL (Rounded Box Melayang)
    ========================================== */
 #header.scrolled {
     top: 20px;
-    left: 50%;
-    transform: translateX(-50%); /* Trik jitu untuk mengetengahkan elemen fixed */
+    left: 48.2%;
     width: 90vw;
     height: 50px;
     padding: 0px 20px;
     background-color: rgba(42, 42, 64, 0.605);
-    backdrop-filter: blur(8px); /* Opsional: memberi efek blur kaca transparan */
-    font-size: 12px;
+    backdrop-filter: blur(8px); 
+    font-size: 10px;
     font-style: italic;
     border-radius: 15px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); /* Dimensi melayang */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3); 
 }
 
-/* Mengubah h1 saat header memiliki class .scrolled */
 #header.scrolled h1 {
     transform: rotate(-5deg); 
 }
@@ -225,7 +222,7 @@ body {
     margin-top: 20px;
     color: aliceblue;
     gap: 15px;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 .content {
@@ -276,7 +273,7 @@ body {
     margin-top: 20px;
     color: aliceblue;
     gap: 15px;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
 #portofolio-container-web .card img {
@@ -379,6 +376,7 @@ body {
         width: 110vw; /* Tetap penuhi layar di kondisi awal */
         padding: 0px 15px; /* Kurangi padding sedikit agar ruang konten lebih luas */
         font-size: 13px; /* Perkecil font dasar agar muat di HP */
+        left: 58%;
     }
 
     #header h1 {
@@ -388,7 +386,7 @@ body {
     /* GAYA SETELAH SCROLL DI HP */
     #header.scrolled {
         top: 10px; /* Jarak dari atas dipersempit agar tidak memakan ruang baca */
-        width: 88vw; /* Diperlebar menjadi 94% agar proporsional dengan layar HP */
+        width: 85vw; /* Diperlebar menjadi 94% agar proporsional dengan layar HP */
         height: 48px; /* Sedikit lebih tipis agar hemat layar */
         padding: 0px 15px;
         border-radius: 10px; /* Lengkungan disesuaikan dengan ukuran kotak yang lebih kecil */
